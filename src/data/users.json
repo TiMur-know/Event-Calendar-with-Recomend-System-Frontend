@@ -1,0 +1,39 @@
+[
+	{
+		"Id": 1,
+		"FullName": "John Doe",
+		"EventIds": [
+			1,
+			2
+		],
+		"Sex": "Male",
+		"PreferedTypesEvents": [
+			"Festival",
+			"Weekend"
+		]
+	},
+	{
+		"Id": 2,
+		"FullName": "Jane Smith",
+		"EventIds": [
+			3,
+			4
+		],
+		"Sex": "Female",
+		"PreferedTypesEvents": [
+			"Festival"
+		]
+	},
+	{
+		"Id": 3,
+		"FullName": "Alice Johnson",
+		"EventIds": [
+			5,
+			6
+		],
+		"Sex": "Female",
+		"PreferedTypesEvents": [
+			"Weekend"
+		]
+	}
+]

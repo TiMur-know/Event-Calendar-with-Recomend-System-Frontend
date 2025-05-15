@@ -1,0 +1,79 @@
+[
+	{
+		"id": "1",
+		"date": "2025-03-01T00:00:00.000Z",
+		"title": "Event 1",
+		"description": "Description for Event 1",
+		"type": "Festival",
+		"popularity": "Big",
+		"popularityCount": 1000,
+		"location": "Park",
+		"duration": 8
+	},
+	{
+		"id": "2",
+		"date": "2025-03-03T00:00:00.000Z",
+		"title": "Event 2",
+		"description": "Description for Event 2",
+		"type": "Weekend",
+		"popularity": "Medium",
+		"popularityCount": 500,
+		"location": "Beach",
+		"duration": 48
+	},
+	{
+		"id": "3",
+		"date": "2025-03-06T00:00:00.000Z",
+		"title": "Event 3",
+		"description": "Description for Event 3",
+		"type": "Festival",
+		"popularity": "Big",
+		"popularityCount": 1500,
+		"location": "City Center",
+		"duration": 12
+	},
+	{
+		"id": "4",
+		"date": "2025-03-06T00:00:00.000Z",
+		"title": "Event 4",
+		"description": "Description for Event 4",
+		"type": "Weekend",
+		"popularity": "Small",
+		"popularityCount": 200,
+		"location": "Mountain",
+		"duration": 48
+	},
+	{
+		"id": "5",
+		"date": "2025-03-18T00:00:00.000Z",
+		"title": "Event 5",
+		"description": "Description for Event 5",
+		"type": "Festival",
+		"popularity": "Medium",
+		"popularityCount": 800,
+		"location": "Stadium",
+		"duration": 10
+	},
+	{
+		"id": "6",
+		"date": "2025-03-12T00:00:00.000Z",
+		"title": "Event 6",
+		"description": "Description for Event 6",
+		"type": "Weekend",
+		"popularity": "Small",
+		"popularityCount": 300,
+		"location": "Lake",
+		"duration": 48
+	},
+	{
+		"id": "7",
+		"date": "2025-03-12T00:00:00.000Z",
+		"title": "Event 7",
+		"description": "Description for Event 7",
+		"type": "Festival",
+		"popularity": "Big",
+		"popularityCount": 2000,
+		"location": "Downtown",
+		"duration": 15
+	}
+]

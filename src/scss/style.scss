@@ -1,0 +1,110 @@
+
+$enable-gradients: true;
+$enable-shadows: true;
+
+$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+
+// Include functions first
+@import 'bootstrap/scss/functions';
+
+
+
+// Colors with numbers
+$blue-100: #cce5ff;
+$blue-200: #99ccff;
+$blue-300: #66b2ff;
+$blue-400: #3399ff;
+$blue-500: #007bff;
+$blue-600: #0066cc;
+$blue-700: #0052b3;
+$blue-800: #003d99;
+$blue-900: #002966;
+
+
+$red-100: #f8d7da;
+$red-200: #f1aeb5;
+$red-300: #ea868f;
+$red-400: #e35d6a;
+$red-500: #dc3545;
+$red-600: #c82333;
+$red-700: #bd2130;
+$red-800: #a71d2a;
+$red-900: #8a1b25;
+
+$yellow-100: #fff3cd;
+$yellow-200: #ffe69c;
+$yellow-300: #ffda6b;
+$yellow-400: #ffcd3a;
+$yellow-500: #ffc107;
+$yellow-600: #e0a800;
+$yellow-700: #c69500;
+$yellow-800: #a38200;
+$yellow-900: #806900;
+
+$orange-100: #ffe5cc;
+$orange-200: #ffcc99;
+$orange-300: #ffb266;
+$orange-400: #ff9933;
+$orange-500: #ff8000;
+$orange-600: #cc6600;
+$orange-700: #994d00;
+$orange-800: #663300;
+$orange-900: #331a00;
+
+$green-100: #d4edda;
+$green-200: #a8dad4;
+$green-300: #7cc7ae;
+$green-400: #50b488;
+$green-500: #28a745;
+$green-600: #218838;
+$green-700: #1c7430;
+$green-800: #155d27;
+$green-900: #0e3d1b;
+
+$primary: $blue-700;
+$secondary: $blue-200;
+$dark:$blue-900;
+// Required
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+@import 'bootstrap/scss/root';
+@import 'bootstrap/scss/reboot';
+
+@import 'bootstrap/scss/type';
+// @import "bootstrap/scss/images";
+@import 'bootstrap/scss/containers';
+@import 'bootstrap/scss/grid';
+// @import "bootstrap/scss/tables";
+// @import "bootstrap/scss/forms";
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/transitions';
+@import 'bootstrap/scss/dropdown';
+// @import "bootstrap/scss/button-group";
+// @import "bootstrap/scss/nav";
+// @import "bootstrap/scss/navbar"; // Requires nav
+// @import "bootstrap/scss/card";
+// @import "bootstrap/scss/breadcrumb";
+// @import "bootstrap/scss/accordion";
+// @import "bootstrap/scss/pagination";
+// @import "bootstrap/scss/badge";
+// @import "bootstrap/scss/alert";
+// @import "bootstrap/scss/progress";
+// @import "bootstrap/scss/list-group";
+@import 'bootstrap/scss/close';
+// @import "bootstrap/scss/toasts";
+@import 'bootstrap/scss/modal'; // Requires transitions
+// @import "bootstrap/scss/tooltip";
+@import 'bootstrap/scss/popover';
+// @import "bootstrap/scss/carousel";
+// @import "bootstrap/scss/spinners";
+@import 'bootstrap/scss/offcanvas'; // Requires transitions
+// @import "bootstrap/scss/placeholders";
+
+// Helpers
+// @import "bootstrap/scss/helpers";
+
+// Utilities
+@import 'bootstrap/scss/utilities/api';

@@ -1,0 +1,23 @@
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+  .calendar-header {
+    justify-content: space-between;
+  }
+
+  .calendar-header h2 {
+    order: 1;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .calendar-header button {
+    order: 2;
+  }
+}

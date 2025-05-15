@@ -1,0 +1,20 @@
+[
+	{
+		"Id": "1",
+		"FullName": "John Doe",
+		"Email":"test@gmail.com",
+		"Password":"PestPassword23!"
+	},
+	{
+		"Id": "1",
+		"FullName": "Jane Smith",
+		"Email":"test@gmail.com",
+		"Password":"RestPassword13!"
+	},
+	{
+		"Id": "1",
+		"FullName": "Alice Johnson",
+		"Email":"test@gmail.com",
+		"Password":"TestPassword12!"
+	}
+]

@@ -1,0 +1,51 @@
+.container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.description {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.details {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.subscribed {
+  border: 2px solid #ffb327;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+.recomendSpan{
+  background-color: #ff13ff;
+  padding: 2px 8px;
+  border:2px solid rgb(122, 0, 112);
+  font-size: 12px;
+  border-radius: 10px;
+  color: #f9f9f9;
+}

@@ -1,0 +1,49 @@
+[
+	{
+		"Id": "1",
+		"UserId": "1",
+		"FullName": "John Doe",
+		"Sex": "Male",
+		"Location": "New York",
+		"PhoneNumber": "1234567890",
+		"EventIds": [
+			1,
+			2
+		],
+		"PreferedTypesEvents": [
+			"Festival",
+			"Weekend"
+		]
+	},
+	{
+		"id": "2",
+		"userId": "2",
+		"FullName": "Jane Smith",
+		"PhoneNumber": "1234567890",
+		"Sex": "Female",
+		"Location": "New York",
+		"EventIds": [
+			3,
+			4
+		],
+		
+		"PreferedTypesEvents": [
+			"Festival"
+		]
+	},
+	{
+		"Id": "3",
+		"UserId": "3",
+		"FullName": "Alice Johnson",
+		"Sex": "Female",
+		"PhoneNumber": "1234567890",
+		"Location": "New York",
+		"EventIds": [
+			5,
+			6
+		],
+		"PreferedTypesEvents": [
+			"Weekend"
+		]
+	}
+]

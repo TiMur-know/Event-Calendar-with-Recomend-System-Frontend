@@ -1,0 +1,69 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; // Changed from 'left' to 'center' for better alignment
+  padding: 20px;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+  h2 {
+    margin-bottom: 10px;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  div {
+    label {
+      display: block;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+.profile-form__button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  &:hover {
+    background-color: #0056b3;
+  }
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
